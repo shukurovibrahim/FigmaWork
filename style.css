@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrapper { 
+  width: 100%;
+  font-family: "Roboto";
+}
+.main-box {
+  width: 90%;
+  margin: 0 auto;
+}
+
+h2 {
+  font-family: "Roboto Slab";
+  font-size: 3.8vw;/*55px*/
+  margin-top: 3.4vw;
+}
+
+.about-course {
+  display: flex;
+  align-items: center;
+  gap: 6.9vw;/*100px*/
+}
+
+.about-course p {
+  font-family: "Roboto";
+  font-size: 1.6vw;/*24px*/
+  text-align: left;
+  width: 46vw;/*662px*/
+  height: 25.9vw;/*374px*/
+  padding-top: 40px;
+  margin-bottom: 60px;
+}
+
+.about-course img{
+  width: 25vw;/*314px 21.8vw*/
+  height: 24vw;/*315px 21.8vw*/
+}
+
+.course-duration{ 
+  font-family: "Roboto Slab"; 
+  display: flex; 
+  padding: 0px 0px 60px 0px;
+  height: 27.7vw; /*400px*/
+  gap: 15vw;
+  width: 90%; 
+  align-items: center; 
+} 
+
+.big-cameraman {
+  width: 16.1vw;/*232px*/
+  height: 15.2vw;/*219px*/
+}
+
+.task-table{ 
+  width: 60%; 
+  display: flex; 
+  gap: 2.5vw; 
+}
+
+.task-table div{ 
+  width: 15vw;
+} 
+
+.task-table h4{ 
+  font-size: 1.7vw;/*25px*/
+}
+
+.task-table p{ 
+  font-size: 1.25vw; /*18px*/
+  width: 12.5vw;
+} 
+
+@media screen and (max-width: 831px) and (min-width: 376px) {
+  
+  .big-cameraman {
+   display: none;
+  }
+}
+
+@media screen and (max-width: 376px) and (min-width: 200px) {
+  .main-box {
+    width: 80%;
+    margin: 0 auto;
+    height: 120vh;
+  }
+
+  h2 {
+    font-size: 7vw; /*26px*/
+  }
+
+  .about-course {
+    display: flex;
+    flex-direction: column;
+    gap: 21.3vw;/*80px*/
+  }
+  
+  .about-course p {
+    margin-top: -10px;
+    font-family: "Roboto";
+    font-size: 3.2vw;/*12px*/
+    width: 82vw;/*308.47px*/
+  }
+  
+  .about-course img{
+    width: 45.4vw;/*170.55px*/
+    height: 42.7vw;/*160.29px*/
+  }
+  
+  .course-duration{ 
+    font-family: "Roboto Slab"; 
+    display: flex; 
+    padding: 0px 0px 60px 0px;
+    height: 27.7vw; /*400px*/
+    gap: 15vw;
+    width: 90%; 
+    align-items: center; 
+  } 
+  
+  .big-cameraman {
+    display: none;
+  }
+  
+  .task-table{ 
+    width: 100%; 
+    display: flex; 
+    flex-flow: wrap;
+    margin-top: 150px;
+    gap: 8.8vw;
+  }
+  
+  .task-table div{ 
+    width: 23.1vw;/*86.89px*/
+  } 
+  
+  .task-table h4{ 
+    font-size: 3.2vw;/*12px*/
+  }
+  
+  .task-table p{ 
+    font-size: 2.6vw; /*10px*/
+    width: 24vw;
+  } 
+}
