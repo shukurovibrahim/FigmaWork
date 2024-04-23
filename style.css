@@ -14,44 +14,44 @@
 
 h2 {
   font-family: "Roboto Slab";
-  font-size: 3.8vw;/*55px*/
+  font-size: 3.8vw;
   margin-top: 3.4vw;
 }
 
 .about-course {
   display: flex;
   align-items: center;
-  gap: 6.9vw;/*100px*/
+  gap: 6.9vw;
 }
 
 .about-course p {
   font-family: "Roboto";
-  font-size: 1.6vw;/*24px*/
+  font-size: 1.6vw;
   text-align: left;
-  width: 46vw;/*662px*/
-  height: 25.9vw;/*374px*/
+  width: 46vw;
+  height: 25.9vw;
   padding-top: 40px;
   margin-bottom: 60px;
 }
 
 .about-course img{
-  width: 25vw;/*314px 21.8vw*/
-  height: 24vw;/*315px 21.8vw*/
+  width: 25vw;
+  height: 24vw;
 }
 
 .course-duration{ 
   font-family: "Roboto Slab"; 
   display: flex; 
   padding: 0px 0px 60px 0px;
-  height: 27.7vw; /*400px*/
+  height: 27.7vw;
   gap: 15vw;
   width: 90%; 
   align-items: center; 
 } 
 
 .big-cameraman {
-  width: 16.1vw;/*232px*/
-  height: 15.2vw;/*219px*/
+  width: 16.1vw;
+  height: 15.2vw;
 }
 
 .task-table{ 
@@ -65,11 +65,11 @@ h2 {
 } 
 
 .task-table h4{ 
-  font-size: 1.7vw;/*25px*/
+  font-size: 1.7vw;
 }
 
 .task-table p{ 
-  font-size: 1.25vw; /*18px*/
+  font-size: 1.25vw;
   width: 12.5vw;
 } 
 
@@ -88,32 +88,32 @@ h2 {
   }
 
   h2 {
-    font-size: 7vw; /*26px*/
+    font-size: 7vw;
   }
 
   .about-course {
     display: flex;
     flex-direction: column;
-    gap: 21.3vw;/*80px*/
+    gap: 21.3vw;
   }
   
   .about-course p {
     margin-top: -10px;
     font-family: "Roboto";
-    font-size: 3.2vw;/*12px*/
-    width: 82vw;/*308.47px*/
+    font-size: 3.2vw;
+    width: 82vw;
   }
   
   .about-course img{
-    width: 45.4vw;/*170.55px*/
-    height: 42.7vw;/*160.29px*/
+    width: 45.4vw;
+    height: 42.7vw;
   }
   
   .course-duration{ 
     font-family: "Roboto Slab"; 
     display: flex; 
     padding: 0px 0px 60px 0px;
-    height: 27.7vw; /*400px*/
+    height: 27.7vw; 
     gap: 15vw;
     width: 90%; 
     align-items: center; 
@@ -132,15 +132,15 @@ h2 {
   }
   
   .task-table div{ 
-    width: 23.1vw;/*86.89px*/
+    width: 23.1vw;
   } 
   
   .task-table h4{ 
-    font-size: 3.2vw;/*12px*/
+    font-size: 3.2vw;
   }
   
   .task-table p{ 
-    font-size: 2.6vw; /*10px*/
+    font-size: 2.6vw; 
     width: 24vw;
   } 
 }
